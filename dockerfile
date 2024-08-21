@@ -1,7 +1,7 @@
 FROM espressif/idf:release-v5.3
 
 ENV ADF_PATH /opt/esp/adf
-ENV ESP_ADF_VERSION fced87a34079b939f2963ffc48742e01ff6fbc41
+ENV ESP_ADF_VERSION e218638621d421eacb78b79179bde6c1710393b4
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
         git &&\
